@@ -1,0 +1,19 @@
+
+void f2(int x) {
+return;
+}
+
+int g( int x, int c[] ) {
+    c[1] = x;
+}
+
+int f( int x ) {
+    int b[27], y[10][8],z;
+    b[1] = 1;
+    y[2][3] = 4;
+    x = g( x, b ) + b[1];
+z = g(x,b);
+f2(2);   
+ return x;
+}
+

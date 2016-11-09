@@ -1,0 +1,9 @@
+
+
+int f(int x) {
+   int y[1],z;
+   z = 1 + (y = (z = x - 4)); 
+   return y + z;
+}
+
+

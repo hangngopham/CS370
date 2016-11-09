@@ -1,0 +1,4 @@
+1. 
+- In lab6 (part II), I implement the action rules for hw6parser.y by using methods in symtbl.c and ast.c classes
+- Whenever I encounter a variable/parameter/identifier that is not properly declared, or a variable/parameter/identifier that has already been declared in the same scope, I will report the error by making function call to yyerror:
+

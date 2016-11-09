@@ -1,0 +1,7 @@
+void g(int x, int y, int z) {
+	int q, w, e;
+	g(q,w,e);
+	return 25;
+
+
+}

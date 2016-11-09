@@ -1,0 +1,52 @@
+
+SYMBOL TABLE DUMP CURRENT:
+Hash index 2:
+  Name b  Scope 3  Symbol Type ID  Data Type INT
+Hash index 7:
+  Name g  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 7:
+  Name TEMP1  Scope -1  Symbol Type TEMP  Data Type INT
+Hash index 8:
+  Name TEMP2  Scope -1  Symbol Type TEMP  Data Type FLOAT
+Hash index 16:
+  Name 0  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 17:
+  Name 1  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 24:
+  Name x  Scope 2  Symbol Type PARA  Data Type INT
+
+
+NODE 7: type PROGRAM symbol g_1 leftnode  1 rightnode 6 
+NODE 1: type PARA symbol x_2 
+NODE 6: type LIST leftnode  3 rightnode 5 
+NODE 3: type ARRAY_DECL symbol b_3 leftnode  2 
+NODE 2: type ARRAY_DIMS symbol 1_0 
+NODE 5: type RETURN leftnode  4 
+NODE 4: type INT symbol 0_0 
+
+
+
+SYMBOL TABLE DUMP CURRENT:
+Hash index 7:
+  Name g  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 7:
+  Name TEMP1  Scope -1  Symbol Type TEMP  Data Type INT
+Hash index 8:
+  Name TEMP2  Scope -1  Symbol Type TEMP  Data Type FLOAT
+Hash index 16:
+  Name 0  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 17:
+  Name 1  Scope 0  Symbol Type NUM  Data Type INT
+
+
+
+ABSTRACT SYNTAX TREE DUMP:
+NODE 7: type PROGRAM symbol g_1 leftnode  1 rightnode 6 
+NODE 1: type PARA symbol x_2 
+NODE 6: type LIST leftnode  3 rightnode 5 
+NODE 3: type ARRAY_DECL symbol b_3 leftnode  2 
+NODE 2: type ARRAY_DIMS symbol 1_0 
+NODE 5: type RETURN leftnode  4 
+NODE 4: type INT symbol 0_0 
+
+

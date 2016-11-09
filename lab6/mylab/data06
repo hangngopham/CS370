@@ -1,0 +1,9 @@
+void func(int x, int y) {
+	x = 3;
+	y = 7;
+
+;
+
+}
+
+

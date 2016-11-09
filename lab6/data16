@@ -1,0 +1,15 @@
+
+
+
+
+int
+GCD(int x, int y)
+{
+int z;
+
+    x = y+1; 
+    z = y*x+10; 
+    y = y+1;
+    z = (x+y)*(y+x) + (y+x)*(x+y); 
+    return z; 
+}

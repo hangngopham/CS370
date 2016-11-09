@@ -1,0 +1,8 @@
+
+
+int f(int x, int y) {
+   int z;
+   z = 1 + (y < (z = x - 4)); 
+   return x = y + z;
+}
+

@@ -1,0 +1,20 @@
+1. Description of program: 
+
+	In lab 1, I have made some modifications in expr.c where I make the function eval_expr() return an expression tree (Tree) instead of integer. In order to do this, I first create a class BTree in which I initialize LeafTree which has no left and right node and BTree which has left and right node. I also include isLeaf function to check whether a node is a leaf or not. In expr.c, I substitute the int value of operand with LeafTree. When I encounter an expression, I build it as a tree that has 2 LeafTree as operands and the data of the root is the operator. By making some modifications in expr.c, the function eval_expr() can return an expression tree of type Tree. 
+
+	For the in_order_traversal function, I first check whether the node is a leaf or not. If it is a leaf, I will print out the value. Then I print out the open bracket "(", recursively calling the left node. If I encounter any operators (Plus, Minus, Multiply, Divide), I will print out the sign of it ("+"."-","*,"/"). Otherwise, I will print out the value of the node. Then I recursively call the right node and print out the close bracket ")".
+
+	For post-order traversal function, I first check whether the node is a leaf or not. If it is a leaf, I will print out the value. I recursively call the left node and right node. If I encounter any operators (Plus, Minus, Multiply, Divide), I will print out the sign of it ("+"."-","*,"/"). Otherwise, I will print out the value of the node.
+
+	For the eval function, I check whether the node is a leaf or not. If it is a leaf, I return the value of the node. Then I recursively call the left and right node. If I encounter the "+"/"-"/"*"/"/" signs, I will conduct the summation/subtraction/multiplication/division, respectively.
+
+	In main.c, I change the data type of val into Tree and call in_order_traversal, post_order_traversal, eval functions. 
+
+	I also create a makefile that organize my code compilation
+
+
+2. Running the program: 
+Type make in the terminal to compile 
+Type./expression (filename) to execute the program 
+
+

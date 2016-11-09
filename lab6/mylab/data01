@@ -1,0 +1,2 @@
+int Scope(int v)
+{ int limit; limit = v+7; {int v; v=3; return limit-v; }}

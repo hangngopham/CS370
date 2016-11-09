@@ -1,0 +1,16 @@
+1. 
+- In lab6 (part II), I implement the action rules for hw6parser.y by using methods in symtbl.c and ast.c classes
+- Whenever I encounter a variable/parameter/identifier that is not properly declared, or a variable/parameter/identifier that has already been declared in the same scope, I will report the error by making function call to yyerror.
+
+2. I use data01, data02, data06, data12, data16, and data30 to test my program. I compile and run my program. Then I download the executable file given by professor. I compare these two results to see whether I have any errors
+
+3. Run the program by using these commands:
+gcc -c ast.c -o ast.o
+gcc -c symtbl.c -o symtbl.o
+gcc -c mem.c -o mem.o
+flex hw6lexer.l
+yacc hw6parser.y
+gcc -c y.tab.c -o y.tab.o
+gcc -o lab6 YACCexampleMain.c y.tab.o ast.o symtbl.o mem.o -lfl -ly
+lab6 < data01 > data01.out
+lab6 < data01

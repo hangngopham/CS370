@@ -1,0 +1,11 @@
+
+int Scope(int v)
+{
+
+/* comment "*/ int k; /*  test1  */" */
+
+/* comment */ int k; /*  test1  */ 
+
+    int limit = v + 7, v = 3;
+    return limit-v;
+}

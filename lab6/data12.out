@@ -1,0 +1,66 @@
+
+SYMBOL TABLE DUMP CURRENT:
+Hash index 16:
+  Name 0  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 17:
+  Name q  Scope 3  Symbol Type ID  Data Type INT
+Hash index 17:
+  Name 1  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 18:
+  Name 2  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 19:
+  Name 3  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 20:
+  Name 4  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 22:
+  Name test6  Scope 1  Symbol Type ID  Data Type INT
+Hash index 24:
+  Name x  Scope 2  Symbol Type ID  Data Type INT
+Hash index 25:
+  Name y  Scope 2  Symbol Type ID  Data Type INT
+Hash index 26:
+  Name z  Scope 3  Symbol Type ID  Data Type INT
+
+ABSTRACT SYNTAX TREE DUMP:
+NODE 42: type PROGRAM symbol test6 leftnode  3 rightnode 41 
+NODE 3: type PARA_LIST symbol - leftnode  1 rightnode 2 
+NODE 1: type PARA symbol x 
+NODE 2: type PARA symbol y 
+NODE 41: type LIST symbol - leftnode  4 rightnode 40 
+NODE 4: type LIST symbol - 
+NODE 40: type LIST symbol - leftnode  35 rightnode 39 
+NODE 35: type LIST symbol - leftnode  13 rightnode 34 
+NODE 13: type ASSIGN symbol - leftnode  12 rightnode 11 
+NODE 12: type ID symbol z 
+NODE 11: type COND_EXP symbol - leftnode  7 rightnode 10 
+NODE 7: type EQ symbol - leftnode  5 rightnode 6 
+NODE 5: type ID symbol x 
+NODE 6: type INT symbol 0 
+NODE 10: type ALT symbol - leftnode  8 rightnode 9 
+NODE 8: type ID symbol y 
+NODE 9: type INT symbol 0 
+NODE 34: type ASSIGN symbol - leftnode  33 rightnode 32 
+NODE 33: type ID symbol q 
+NODE 32: type COND_EXP symbol - leftnode  16 rightnode 31 
+NODE 16: type EQ symbol - leftnode  14 rightnode 15 
+NODE 14: type ID symbol x 
+NODE 15: type INT symbol 0 
+NODE 31: type ALT symbol - leftnode  23 rightnode 30 
+NODE 23: type COND_EXP symbol - leftnode  19 rightnode 22 
+NODE 19: type EQ symbol - leftnode  17 rightnode 18 
+NODE 17: type ID symbol y 
+NODE 18: type INT symbol 0 
+NODE 22: type ALT symbol - leftnode  20 rightnode 21 
+NODE 20: type INT symbol 1 
+NODE 21: type INT symbol 2 
+NODE 30: type COND_EXP symbol - leftnode  26 rightnode 29 
+NODE 26: type EQ symbol - leftnode  24 rightnode 25 
+NODE 24: type ID symbol z 
+NODE 25: type INT symbol 0 
+NODE 29: type ALT symbol - leftnode  27 rightnode 28 
+NODE 27: type INT symbol 3 
+NODE 28: type INT symbol 4 
+NODE 39: type RETURN symbol - leftnode  38 
+NODE 38: type ADD symbol - leftnode  36 rightnode 37 
+NODE 36: type ID symbol z 
+NODE 37: type ID symbol q 

@@ -1,0 +1,4 @@
+int g() {
+	int x, a;
+	return 0;
+}

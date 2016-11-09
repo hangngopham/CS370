@@ -1,0 +1,5 @@
+int g(int x) {
+	int b[1];
+	return 0;
+
+}

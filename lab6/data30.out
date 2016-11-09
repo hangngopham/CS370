@@ -1,0 +1,39 @@
+
+SYMBOL TABLE DUMP CURRENT:
+Hash index 6:
+  Name f  Scope 1  Symbol Type ID  Data Type INT
+Hash index 17:
+  Name 1  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 20:
+  Name 4  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 24:
+  Name x  Scope 2  Symbol Type ID  Data Type INT
+Hash index 25:
+  Name y  Scope 2  Symbol Type ID  Data Type INT
+Hash index 26:
+  Name z  Scope 3  Symbol Type ID  Data Type INT
+
+ABSTRACT SYNTAX TREE DUMP:
+NODE 23: type PROGRAM symbol f leftnode  3 rightnode 22 
+NODE 3: type PARA_LIST symbol - leftnode  1 rightnode 2 
+NODE 1: type PARA symbol x 
+NODE 2: type PARA symbol y 
+NODE 22: type LIST symbol - rightnode 21 
+NODE 21: type LIST symbol - leftnode  14 rightnode 20 
+NODE 14: type ASSIGN symbol - leftnode  13 rightnode 12 
+NODE 13: type ID symbol z 
+NODE 12: type ADD symbol - leftnode  4 rightnode 11 
+NODE 4: type INT symbol 1 
+NODE 11: type LT symbol - leftnode  5 rightnode 10 
+NODE 5: type ID symbol y 
+NODE 10: type ASSIGN symbol - leftnode  9 rightnode 8 
+NODE 9: type ID symbol z 
+NODE 8: type SUB symbol - leftnode  6 rightnode 7 
+NODE 6: type ID symbol x 
+NODE 7: type INT symbol 4 
+NODE 20: type RETURN symbol - leftnode  19 
+NODE 19: type ASSIGN symbol - leftnode  18 rightnode 17 
+NODE 18: type ID symbol x 
+NODE 17: type ADD symbol - leftnode  15 rightnode 16 
+NODE 15: type ID symbol y 
+NODE 16: type ID symbol z 

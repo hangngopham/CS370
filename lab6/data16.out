@@ -1,0 +1,61 @@
+
+SYMBOL TABLE DUMP CURRENT:
+Hash index 1:
+  Name 10  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 14:
+  Name GCD  Scope 1  Symbol Type ID  Data Type INT
+Hash index 17:
+  Name 1  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 24:
+  Name x  Scope 2  Symbol Type ID  Data Type INT
+Hash index 25:
+  Name y  Scope 2  Symbol Type ID  Data Type INT
+Hash index 26:
+  Name z  Scope 3  Symbol Type ID  Data Type INT
+
+ABSTRACT SYNTAX TREE DUMP:
+NODE 45: type PROGRAM symbol GCD leftnode  3 rightnode 44 
+NODE 3: type PARA_LIST symbol - leftnode  1 rightnode 2 
+NODE 1: type PARA symbol x 
+NODE 2: type PARA symbol y 
+NODE 44: type LIST symbol - rightnode 43 
+NODE 43: type LIST symbol - leftnode  40 rightnode 42 
+NODE 40: type LIST symbol - leftnode  22 rightnode 39 
+NODE 22: type LIST symbol - leftnode  16 rightnode 21 
+NODE 16: type LIST symbol - leftnode  8 rightnode 15 
+NODE 8: type ASSIGN symbol - leftnode  7 rightnode 6 
+NODE 7: type ID symbol x 
+NODE 6: type ADD symbol - leftnode  4 rightnode 5 
+NODE 4: type ID symbol y 
+NODE 5: type INT symbol 1 
+NODE 15: type ASSIGN symbol - leftnode  14 rightnode 13 
+NODE 14: type ID symbol z 
+NODE 13: type ADD symbol - leftnode  11 rightnode 12 
+NODE 11: type MUL symbol - leftnode  9 rightnode 10 
+NODE 9: type ID symbol y 
+NODE 10: type ID symbol x 
+NODE 12: type INT symbol 10 
+NODE 21: type ASSIGN symbol - leftnode  20 rightnode 19 
+NODE 20: type ID symbol y 
+NODE 19: type ADD symbol - leftnode  17 rightnode 18 
+NODE 17: type ID symbol y 
+NODE 18: type INT symbol 1 
+NODE 39: type ASSIGN symbol - leftnode  38 rightnode 37 
+NODE 38: type ID symbol z 
+NODE 37: type ADD symbol - leftnode  29 rightnode 36 
+NODE 29: type MUL symbol - leftnode  25 rightnode 28 
+NODE 25: type ADD symbol - leftnode  23 rightnode 24 
+NODE 23: type ID symbol x 
+NODE 24: type ID symbol y 
+NODE 28: type ADD symbol - leftnode  26 rightnode 27 
+NODE 26: type ID symbol y 
+NODE 27: type ID symbol x 
+NODE 36: type MUL symbol - leftnode  32 rightnode 35 
+NODE 32: type ADD symbol - leftnode  30 rightnode 31 
+NODE 30: type ID symbol y 
+NODE 31: type ID symbol x 
+NODE 35: type ADD symbol - leftnode  33 rightnode 34 
+NODE 33: type ID symbol x 
+NODE 34: type ID symbol y 
+NODE 42: type RETURN symbol - leftnode  41 
+NODE 41: type ID symbol z 

@@ -1,0 +1,250 @@
+NODE 10: type PROGRAM symbol g_1 leftnode  4 rightnode 9 
+NODE 4: type PARA_LIST leftnode  1 rightnode 3 
+NODE 1: type PARA symbol x_2 
+NODE 3: type PARA symbol c_2 leftnode  2 
+NODE 2: type ARRAY_DIMS 
+NODE 9: type ASSIGN leftnode  8 rightnode 7 
+NODE 8: type ARRAY_REF symbol c_2 leftnode  6 
+NODE 6: type ARRAY_INDEX rightnode 5 
+NODE 5: type INT symbol 1_0 
+NODE 7: type ID symbol x_2 
+
+
+
+SYMBOL TABLE DUMP CURRENT:
+Hash index 1:
+  Name 10  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 2:
+  Name b  Scope 3  Symbol Type ID  Data Type INT
+Hash index 6:
+  Name f  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 7:
+  Name g  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 7:
+  Name TEMP1  Scope -1  Symbol Type TEMP  Data Type INT
+Hash index 8:
+  Name TEMP2  Scope -1  Symbol Type TEMP  Data Type FLOAT
+Hash index 9:
+  Name 27  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 17:
+  Name 1  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 18:
+  Name 2  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 19:
+  Name 3  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 20:
+  Name 4  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 24:
+  Name x  Scope 2  Symbol Type PARA  Data Type INT
+Hash index 24:
+  Name 8  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 25:
+  Name y  Scope 3  Symbol Type ID  Data Type INT
+
+
+NODE 48: type PROGRAM symbol f_1 leftnode  11 rightnode 47 
+NODE 11: type PARA symbol x_2 
+NODE 47: type LIST leftnode  17 rightnode 46 
+NODE 17: type LIST leftnode  13 rightnode 16 
+NODE 13: type ARRAY_DECL symbol b_3 leftnode  12 
+NODE 12: type ARRAY_DIMS symbol 27_0 
+NODE 16: type ARRAY_DECL symbol y_3 leftnode  15 
+NODE 15: type ARRAY_DIMS symbol 8_0 leftnode  14 
+NODE 14: type ARRAY_DIMS symbol 10_0 
+NODE 46: type LIST leftnode  43 rightnode 45 
+NODE 43: type LIST leftnode  30 rightnode 42 
+NODE 30: type LIST leftnode  22 rightnode 29 
+NODE 22: type ASSIGN leftnode  21 rightnode 20 
+NODE 21: type ARRAY_REF symbol b_3 leftnode  19 
+NODE 19: type ARRAY_INDEX symbol 27_0 rightnode 18 
+NODE 18: type INT symbol 1_0 
+NODE 20: type INT symbol 1_0 
+NODE 29: type ASSIGN leftnode  28 rightnode 27 
+NODE 28: type ARRAY_REF symbol y_3 leftnode  26 
+NODE 26: type ARRAY_INDEX symbol 8_0 leftnode  24 rightnode 25 
+NODE 24: type ARRAY_INDEX symbol 10_0 rightnode 23 
+NODE 23: type INT symbol 2_0 
+NODE 25: type INT symbol 3_0 
+NODE 27: type INT symbol 4_0 
+NODE 42: type ASSIGN leftnode  41 rightnode 40 
+NODE 41: type ID symbol x_2 
+NODE 40: type ADD leftnode  36 rightnode 39 
+NODE 36: type FUNC_CALL symbol g_1 leftnode  35 
+NODE 35: type ARG_LIST leftnode  32 rightnode 34 
+NODE 32: type ARG leftnode  31 
+NODE 31: type ID symbol x_2 
+NODE 34: type ARG leftnode  33 
+NODE 33: type ID symbol b_3 
+NODE 39: type ARRAY_REF symbol b_3 leftnode  38 
+NODE 38: type ARRAY_INDEX symbol 27_0 rightnode 37 
+NODE 37: type INT symbol 1_0 
+NODE 45: type RETURN leftnode  44 
+NODE 44: type ID symbol x_2 
+
+
+
+SYMBOL TABLE DUMP CURRENT:
+Hash index 1:
+  Name 10  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 6:
+  Name f  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 7:
+  Name g  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 7:
+  Name TEMP1  Scope -1  Symbol Type TEMP  Data Type INT
+Hash index 8:
+  Name h  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 8:
+  Name TEMP2  Scope -1  Symbol Type TEMP  Data Type FLOAT
+Hash index 9:
+  Name 27  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 17:
+  Name 1  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 18:
+  Name 2  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 19:
+  Name 3  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 20:
+  Name 4  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 23:
+  Name 7  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 24:
+  Name x  Scope 2  Symbol Type PARA  Data Type INT
+Hash index 24:
+  Name 8  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 25:
+  Name y  Scope 3  Symbol Type ID  Data Type INT
+
+
+NODE 72: type PROGRAM symbol h_1 leftnode  50 rightnode 71 
+NODE 50: type PARA symbol x_2 
+NODE 71: type LIST leftnode  53 rightnode 70 
+NODE 53: type ARRAY_DECL symbol y_3 leftnode  52 
+NODE 52: type ARRAY_DIMS symbol 8_0 leftnode  51 
+NODE 51: type ARRAY_DIMS symbol 10_0 
+NODE 70: type ASSIGN leftnode  69 rightnode 68 
+NODE 69: type ARRAY_REF symbol y_3 leftnode  65 
+NODE 65: type ARRAY_INDEX symbol 8_0 leftnode  57 rightnode 64 
+NODE 57: type ARRAY_INDEX symbol 10_0 rightnode 56 
+NODE 56: type ADD leftnode  54 rightnode 55 
+NODE 54: type ID symbol x_2 
+NODE 55: type INT symbol 2_0 
+NODE 64: type MUL leftnode  58 rightnode 63 
+NODE 58: type ID symbol x_2 
+NODE 63: type ARRAY_REF symbol y_3 leftnode  62 
+NODE 62: type ARRAY_INDEX symbol 8_0 leftnode  60 rightnode 61 
+NODE 60: type ARRAY_INDEX symbol 10_0 rightnode 59 
+NODE 59: type INT symbol 3_0 
+NODE 61: type ID symbol x_2 
+NODE 68: type ADD leftnode  66 rightnode 67 
+NODE 66: type ID symbol x_2 
+NODE 67: type INT symbol 7_0 
+
+
+
+SYMBOL TABLE DUMP CURRENT:
+Hash index 1:
+  Name 10  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 6:
+  Name f  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 7:
+  Name g  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 7:
+  Name TEMP1  Scope -1  Symbol Type TEMP  Data Type INT
+Hash index 8:
+  Name h  Scope 1  Symbol Type FUNC  Data Type INT
+Hash index 8:
+  Name TEMP2  Scope -1  Symbol Type TEMP  Data Type FLOAT
+Hash index 9:
+  Name 27  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 17:
+  Name 1  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 18:
+  Name 2  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 19:
+  Name 3  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 20:
+  Name 4  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 23:
+  Name 7  Scope 0  Symbol Type NUM  Data Type INT
+Hash index 24:
+  Name 8  Scope 0  Symbol Type NUM  Data Type INT
+
+
+
+ABSTRACT SYNTAX TREE DUMP:
+NODE 73: type PROGRAM_LIST leftnode  49 rightnode 72 
+NODE 49: type PROGRAM_LIST leftnode  10 rightnode 48 
+NODE 10: type PROGRAM symbol g_1 leftnode  4 rightnode 9 
+NODE 4: type PARA_LIST leftnode  1 rightnode 3 
+NODE 1: type PARA symbol x_2 
+NODE 3: type PARA symbol c_2 leftnode  2 
+NODE 2: type ARRAY_DIMS 
+NODE 9: type ASSIGN leftnode  8 rightnode 7 
+NODE 8: type ARRAY_REF symbol c_2 leftnode  6 
+NODE 6: type ARRAY_INDEX rightnode 5 
+NODE 5: type INT symbol 1_0 
+NODE 7: type ID symbol x_2 
+NODE 48: type PROGRAM symbol f_1 leftnode  11 rightnode 47 
+NODE 11: type PARA symbol x_2 
+NODE 47: type LIST leftnode  17 rightnode 46 
+NODE 17: type LIST leftnode  13 rightnode 16 
+NODE 13: type ARRAY_DECL symbol b_3 leftnode  12 
+NODE 12: type ARRAY_DIMS symbol 27_0 
+NODE 16: type ARRAY_DECL symbol y_3 leftnode  15 
+NODE 15: type ARRAY_DIMS symbol 8_0 leftnode  14 
+NODE 14: type ARRAY_DIMS symbol 10_0 
+NODE 46: type LIST leftnode  43 rightnode 45 
+NODE 43: type LIST leftnode  30 rightnode 42 
+NODE 30: type LIST leftnode  22 rightnode 29 
+NODE 22: type ASSIGN leftnode  21 rightnode 20 
+NODE 21: type ARRAY_REF symbol b_3 leftnode  19 
+NODE 19: type ARRAY_INDEX symbol 27_0 rightnode 18 
+NODE 18: type INT symbol 1_0 
+NODE 20: type INT symbol 1_0 
+NODE 29: type ASSIGN leftnode  28 rightnode 27 
+NODE 28: type ARRAY_REF symbol y_3 leftnode  26 
+NODE 26: type ARRAY_INDEX symbol 8_0 leftnode  24 rightnode 25 
+NODE 24: type ARRAY_INDEX symbol 10_0 rightnode 23 
+NODE 23: type INT symbol 2_0 
+NODE 25: type INT symbol 3_0 
+NODE 27: type INT symbol 4_0 
+NODE 42: type ASSIGN leftnode  41 rightnode 40 
+NODE 41: type ID symbol x_2 
+NODE 40: type ADD leftnode  36 rightnode 39 
+NODE 36: type FUNC_CALL symbol g_1 leftnode  35 
+NODE 35: type ARG_LIST leftnode  32 rightnode 34 
+NODE 32: type ARG leftnode  31 
+NODE 31: type ID symbol x_2 
+NODE 34: type ARG leftnode  33 
+NODE 33: type ID symbol b_3 
+NODE 39: type ARRAY_REF symbol b_3 leftnode  38 
+NODE 38: type ARRAY_INDEX symbol 27_0 rightnode 37 
+NODE 37: type INT symbol 1_0 
+NODE 45: type RETURN leftnode  44 
+NODE 44: type ID symbol x_2 
+NODE 72: type PROGRAM symbol h_1 leftnode  50 rightnode 71 
+NODE 50: type PARA symbol x_2 
+NODE 71: type LIST leftnode  53 rightnode 70 
+NODE 53: type ARRAY_DECL symbol y_3 leftnode  52 
+NODE 52: type ARRAY_DIMS symbol 8_0 leftnode  51 
+NODE 51: type ARRAY_DIMS symbol 10_0 
+NODE 70: type ASSIGN leftnode  69 rightnode 68 
+NODE 69: type ARRAY_REF symbol y_3 leftnode  65 
+NODE 65: type ARRAY_INDEX symbol 8_0 leftnode  57 rightnode 64 
+NODE 57: type ARRAY_INDEX symbol 10_0 rightnode 56 
+NODE 56: type ADD leftnode  54 rightnode 55 
+NODE 54: type ID symbol x_2 
+NODE 55: type INT symbol 2_0 
+NODE 64: type MUL leftnode  58 rightnode 63 
+NODE 58: type ID symbol x_2 
+NODE 63: type ARRAY_REF symbol y_3 leftnode  62 
+NODE 62: type ARRAY_INDEX symbol 8_0 leftnode  60 rightnode 61 
+NODE 60: type ARRAY_INDEX symbol 10_0 rightnode 59 
+NODE 59: type INT symbol 3_0 
+NODE 61: type ID symbol x_2 
+NODE 68: type ADD leftnode  66 rightnode 67 
+NODE 66: type ID symbol x_2 
+NODE 67: type INT symbol 7_0 
+
+
